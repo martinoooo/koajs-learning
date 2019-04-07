@@ -1,9 +1,10 @@
 {
-  "name": "egg-egg-tracer",
+  "name": "egg-tracer",
   "version": "1.0.0",
   "description": "",
   "eggPlugin": {
-    "name": "eggTracer"
+    "name": "tracer",
+    "dependencies": ["session"]
   },
   "keywords": [
     "egg",
@@ -44,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-egg-tracer.git"
+    "url": "git+https://github.com/eggjs/egg-tracer.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-egg-tracer#readme",
+  "homepage": "https://github.com/eggjs/egg-tracer#readme",
   "author": "",
   "license": "MIT"
 }

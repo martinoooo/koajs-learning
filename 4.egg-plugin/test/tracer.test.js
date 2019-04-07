@@ -2,11 +2,11 @@
 
 const mock = require('egg-mock');
 
-describe('test/egg-tracer.test.js', () => {
+describe('test/tracer.test.js', () => {
   let app;
   before(() => {
     app = mock.app({
-      baseDir: 'apps/egg-tracer-test',
+      baseDir: 'apps/tracer-test',
     });
     return app.ready();
   });
@@ -17,7 +17,7 @@ describe('test/egg-tracer.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, eggTracer')
+      .expect('hi, tracer')
       .expect(200);
   });
 });

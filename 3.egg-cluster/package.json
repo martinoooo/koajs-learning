@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cfork": "^1.7.1",
+    "chokidar": "^2.1.5",
+    "cluster-reload": "^1.0.2",
     "globby": "^9.2.0",
     "koa": "^2.7.0"
   }

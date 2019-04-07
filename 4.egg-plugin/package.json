@@ -4,14 +4,18 @@
   "description": "",
   "eggPlugin": {
     "name": "tracer",
-    "dependencies": ["session"]
+    "dependencies": [
+      "session"
+    ]
   },
   "keywords": [
     "egg",
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "useragent": "^2.3.0"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
